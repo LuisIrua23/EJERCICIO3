@@ -37,15 +37,15 @@ class PackageController extends Controller
         return view('package_c.show', compact('paq'));
     }
 
-    public function destroy ( Package $id)
+    public function destroy ( Package $paq)
     {
-        $paq=delete();
+        $paq->delete();
         return redirect()->route('package.listar');
     }
 
-    public function edit(Package $paquetes)
+    public function edit(Package $paq)
     {
-        return view('package_c,edit', compact('paq'));
+        return view('package_c.edit', compact('paq'));
     }
 
     public function update(Request $request, Package $paq)

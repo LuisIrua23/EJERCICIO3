@@ -30,7 +30,7 @@
                             <td>{{ $paq->codigo }}</td>
                             <td>{{ $paq->descripcion }} </td>
                             <td>{{ $paq->destinatario }} </td>
-                            <td>{{ $paq->direcciones }} </td>
+                            <td>{{ $paq->direccion }} </td>
                             <td><a href="{{ route('package.show', $paq->id) }}"
                                     style="text-decoration: none">Mostrar</a></td>
                             <td><a href="{{ route('package.edit', $paq->id) }}" style="text-decoration: none">Editar</a></td>

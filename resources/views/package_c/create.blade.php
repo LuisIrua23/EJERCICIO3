@@ -29,7 +29,7 @@
             <label  class="form-label">
                 Direccion:
                 <br>
-                <input class="form-control"  type="text" name="direcciones" required>
+                <input class="form-control"  type="text" name="direccion" required>
             </label>
             <br><br>
             <button class="btn btn-primary" type="submit" >Enviar Formulario:</button>

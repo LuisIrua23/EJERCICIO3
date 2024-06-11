@@ -21,7 +21,7 @@
     <br>
     <input type="text" name="descripcion" value="{{ old('descripcion', $paq->descripcion) }}">
 </label>
-<br>
+<br>_
 <label>
     ddestinatario:
     <br>
@@ -32,7 +32,7 @@
 <label>
     descripcion:
     <br>
-    <input type="text" name="direcciones" value="{{ old('direcciones', $paq->direcciones) }}">
+    <input type="text" name="direccion" value="{{ old('direccion', $paq->direccion) }}">
 </label>
 <br>
 <br>
